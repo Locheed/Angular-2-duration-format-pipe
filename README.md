@@ -21,7 +21,7 @@ Output: '00:00:00'
 
 ```sh
 {{value_given_milliseconds | durationFormat: 'ms':'ddhhmmss'}}
-{{value_given_seconds | durationFormat: 's':'ddhhmms'}}
+{{value_given_seconds | durationFormat: 's':'ddhhmmss'}}
 
 Output: '00d, 00h, 00m, 00s'
 ```
